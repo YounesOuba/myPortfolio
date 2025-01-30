@@ -316,7 +316,7 @@ body {
 }
 
 
-.section4container:hover{
+.section4container:hover, .services-main-cards:hover{
   border: 1px solid purple;
   background-color: rgba(128, 0, 128, 0.363);
   scale: 1.05;

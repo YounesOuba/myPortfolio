@@ -22,19 +22,19 @@ function Links() {
             delay: 600,
         },
         {
-            href: "#",
+            href: "https://www.linkedin.com/in/younes-ouba-4560292a9",
             label: "LinkedIn",
             icon: "linkedin",
             delay: 800,
         },
         {
-            href: "#",
+            href: "https://www.instagram.com/younes__ouba/",
             label: "Instagram",
             icon: "instagram-alt",
             delay: 1000,
         },
         {
-            href: "#",
+            href: "https://t.me/YounesOuba",
             label: "Telegram",
             icon: "telegram",
             delay: 1200,
@@ -60,7 +60,7 @@ function Links() {
                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue-300 via-blue-500 to-purple-600 rounded-b-2xl opacity-60"></span>
                     <div className="divLiks my-4 flex flex-col items-center">
                         {/* Icon with rounded background */}
-                        <div className="bg-slate-800 p-4 rounded-full mb-4">
+                        <div className="bg-slate-600/30 p-4 rounded-full mb-4">
                             <box-icon type='logo' name={link.icon} color="white" size="lg"></box-icon>
                         </div>
                         <h2 className="text-white text-2xl font-bold text-center">

@@ -60,7 +60,9 @@ import VideoBackground from './VideoBackground';
 import bgVideo from './assets/bg2.mp4';
 import Links from './sc-Links';
 import Section3 from './section3';
+import Services from './services';
 import Resume from './section4';
+import Contact from './contact';
 
 
 function Portfolio() {
@@ -114,9 +116,11 @@ function Portfolio() {
           <VideoBackground videoSrc={ bgVideo } className="bgVideo"/>
           <Section1 />
           <Links />
-          <Section2 />
+          <Section2 />          
+          <Services />
           <Section3 />
           <Resume />
+          <Contact />
         </>
         
       {/* )} */}

@@ -17,6 +17,10 @@ import bootstrapIcon from './icons/bootstrap.png';
 import pythonIcon from './icons/python.png';
 import githubIcon from './icons/whitegithub.png';
 import gitIcon from './icons/git.png';
+import vscodeIcon from './icons/vscode.png';
+import xamppIcon from './icons/xampp.png';
+import mysqlworkbenchIcon from './icons/mysqlworkbench.png';
+import sonarQubeIcon from './icons/sonarqube.png';
 
 function Section3() {
     React.useEffect(() => {
@@ -40,10 +44,14 @@ function Section3() {
         { name: "Python", icon: pythonIcon },
         { name: "Git", icon: gitIcon },
         { name: "GitHub", icon: githubIcon },
+        { name: "VS Code", icon: vscodeIcon },
+        { name: "XAMPP", icon: xamppIcon },
+        { name: "MySQL Workbench", icon: mysqlworkbenchIcon },
+        { name: "SonarQube", icon: sonarQubeIcon },
     ];
 
     return (
-        <section className="rdSection w-full min-h-screen mt-36 bg-transparent py-16">
+        <section className="rdSection w-full min-h-screen bg-transparent py-16">
             <h1
                 className="rdTitle text-5xl font-extrabold mb-10 text-center hover:scale-110 transition-transform duration-300 text-white"
                 data-aos="fade-up"
@@ -51,7 +59,7 @@ function Section3() {
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
             >
-                My Skills <span className="emoji animate-pulse">🤹‍♂️</span>
+                My Dev Toolbox <span className="emoji animate-pulse">🤹‍♂️</span>
             </h1>
 
             <div className="w-3/4 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8 bg-slate-300/10 p-6 rounded-md"
@@ -71,7 +79,7 @@ function Section3() {
                         <img
                             src={skill.icon}
                             alt={`${skill.name} icon`}
-                            className="w-16 h-16 mb-4 rounded-full"
+                            className="w-16 h-16 mb-4 rounded-s-xl"
                         />
                         <p className="paragraph text-center text-lg font-bold text-gray-200">
                             {skill.name}
