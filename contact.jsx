@@ -9,8 +9,8 @@ function Contact() {
     React.useEffect(() => {
         AOS.init({
             duration: 1000,
-            once: false,
-            mirror: true,
+            once: true,
+            mirror: false,
             anchorPlacement: "top-center",
             offset: -100,
         });
@@ -48,7 +48,7 @@ function Contact() {
                             data-aos="fade-right"
                             data-aos-delay="500"
                         >
-                             <box-icon type='solid' name='envelope' color="white"></box-icon><span>Email: <a href="mailto:oubayounesouba@example.com" className="text-purple-400 hover:underline">oubayounesouba@example.com</a></span>
+                             <box-icon type='solid' name='envelope' color="white"></box-icon><span>Email: <a href="mailto:oubayounesouba@gmail.com" className="text-purple-400 hover:underline">oubayounesouba@gmail.com</a></span>
                         </li>
                         <li className="bg-gray-700 p-4 rounded-lg flex items-center gap-4 hover:scale-105 transition-all"
                             data-aos="fade-right"
@@ -60,7 +60,7 @@ function Contact() {
                             data-aos="fade-left"
                             data-aos-delay="600"
                         >
-                            <box-icon name='telegram' type='logo' color='#ffffff' ></box-icon><span>Telegram: <a href="t.me/YounesOuba" className="text-purple-400 hover:underline">@YounesOuba</a></span>
+                            <box-icon name='telegram' type='logo' color='#ffffff' ></box-icon><span>Telegram: <a href="https://t.me/YounesOuba" target="_blank" className="text-purple-400 hover:underline">@YounesOuba</a></span>
                         </li>
                         <li className="bg-gray-700 p-4 rounded-lg flex items-center gap-4 hover:scale-105 transition-all"
                             data-aos="fade-left"

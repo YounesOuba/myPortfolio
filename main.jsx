@@ -54,8 +54,8 @@ import './style.css';
 import 'tailwindcss/tailwind.css';
 import Loader from './loader';
 import HeaderComponent from './HeaderComponent';
-import Section1 from './Section1';
-import Section2 from './section2';
+import Home from './Section1';
+import About from './section2';
 import VideoBackground from './VideoBackground';
 import bgVideo from './assets/bg2.mp4';
 import Links from './sc-Links';
@@ -63,6 +63,7 @@ import Section3 from './section3';
 import Services from './services';
 import Resume from './section4';
 import Contact from './contact';
+import Footer from './footer';
 
 
 function Portfolio() {
@@ -108,22 +109,23 @@ function Portfolio() {
 
   return (
     <div className="bg-transparent -z-11 min-h-screen flex flex-col items-center justify-center text-white">
-      {/* {loading ? (
+      {loading ? (
         <Loader />
-      ) : ( */}
+      ) : (
         <>
           <HeaderComponent isScrolled={isScrolled}/>
           <VideoBackground videoSrc={ bgVideo } className="bgVideo"/>
-          <Section1 />
+          <Home />
           <Links />
-          <Section2 />          
+          <About />          
           <Services />
           <Section3 />
           <Resume />
           <Contact />
+          <Footer />
         </>
         
-      {/* )} */}
+     )}
     </div>
   );
 }

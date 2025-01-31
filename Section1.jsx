@@ -7,7 +7,7 @@ import cv from './assets/mycv.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Section1() {
+function Home() {
   AOS.init()
     return (
         <section className="homeSection text-center py-20 flex flex-col items-center animate-fade-in-down w-full"
@@ -87,4 +87,4 @@ function Section1() {
     );
 }
 
-export default Section1;
+export default Home;
